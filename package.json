@@ -1,0 +1,23 @@
+{
+  "name": "vue-parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "Vue boilerplace using parcel",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn run parcel",
+    "prod": "yarn run parcel build"
+  },
+  "keywords": [],
+  "author": "Theis <theissnielsen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^1.2.1",
+    "babel-preset-env": "^1.6.1",
+    "parcel-bundler": "^1.7.1",
+    "parcel-plugin-vue": "^1.5.0"
+  }
+}
